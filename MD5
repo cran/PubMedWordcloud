@@ -1,0 +1,16 @@
+b6f8f26a1c82a78ddf09acdd2c9557e0 *DESCRIPTION
+3fa6bec2ec3b0dbda67b94abc9a1a01b *NAMESPACE
+1fc6f4997e34706a5f658955cdecac3e *R/cleanAbstracts.R
+ac31cf8389ab5b9313706a9cc6812a86 *R/colSets.R
+ff9f60a3c07c8b1ba7b1321dd335db48 *R/editPMIDs.R
+199c1cb2b60933842a026d4339144f4b *R/getAbstracts.R
+c57564745d15867251ca45ffebafce17 *R/getPMIDs.R
+aad2326b7d70685874b86fcb419316ff *R/plotWordCloud.R
+6700367a97388923691d7d20c31a3db3 *R/pmWordCloud.R
+d0060550bb627cec0546af5f383316f4 *man/cleanAbstracts.Rd
+ee99d5dabed585897e7ca5584442a4cb *man/colSets.Rd
+25cad9e8cc20faff1564093cf8f34513 *man/editPMIDs.Rd
+5e3bf1087fd6c4d6afea73cf25baf3d5 *man/getAbstracts.Rd
+ed4dcbd293f6f2c9214e8a830be6fe66 *man/getPMIDs.Rd
+1a515c452de377cbaefc3454f97bc0c6 *man/plotWordCloud.Rd
+e8859bee2d6bbaa38b3975edc34e522b *man/pmWordCloud.Rd
