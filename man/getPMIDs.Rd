@@ -1,6 +1,6 @@
 \name{getPMIDs}
 \alias{getPMIDs}
-\title{get PMIDs}
+\title{get PMIDs using author names}
 \usage{
   getPMIDs(author, dFrom, dTo, n = 50)
 }
@@ -18,9 +18,9 @@
   for author and the specified date.
 }
 \examples{
-getPMIDs(author="Yan-Hui Fan",dFrom=2007,dTo=2013,n=10)
+# getPMIDs(author="Yan-Hui Fan",dFrom=2007,dTo=2013,n=10)
 
-getPMIDs(author="Yanhui Fan",dFrom=2007,dTo=2013,n=10)
+# getPMIDs(author="Yanhui Fan",dFrom=2007,dTo=2013,n=10)
 }
 \seealso{
   \code{\link{getAbstracts}}

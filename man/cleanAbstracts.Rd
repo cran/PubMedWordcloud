@@ -34,7 +34,7 @@
   specified words, Stemming words.
 }
 \examples{
-Abs=getAbstracts(c("22693232", "22564732", "22301463", "22015308", "21283797", "19412437"))
+Abs=getAbstracts(c("22693232", "22564732"))
 cleanAbs=cleanAbstracts(Abs)
 
 text="Jobs received a number of honors and public recognition."

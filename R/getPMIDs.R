@@ -1,4 +1,4 @@
-#' @title get PMIDs
+#' @title get PMIDs using author names
 #' @description retrieve PMIDs (each PMID is 8 digits long) from PubMed for author and the specified date.
 #' @param author author's name
 #' @param dFrom  start year
@@ -8,9 +8,9 @@
 #' @seealso \code{\link{editPMIDs}}
 #' @export
 #' @examples
-#' getPMIDs(author="Yan-Hui Fan",dFrom=2007,dTo=2013,n=10)
+#' # getPMIDs(author="Yan-Hui Fan",dFrom=2007,dTo=2013,n=10)
 #' 
-#' getPMIDs(author="Yanhui Fan",dFrom=2007,dTo=2013,n=10)
+#' # getPMIDs(author="Yanhui Fan",dFrom=2007,dTo=2013,n=10)
 getPMIDs <-function(author,dFrom, dTo, n=50){
   eSearch <- "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=" 
   aL <- str_replace(author, " ", "+")
