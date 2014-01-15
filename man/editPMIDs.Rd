@@ -2,7 +2,7 @@
 \alias{editPMIDs}
 \title{edit PMIDs}
 \usage{
-  editPMIDs(x, y, method = c("add", "exclude"))
+editPMIDs(x, y, method = c("add", "exclude"))
 }
 \arguments{
   \item{x}{output of getPMIDs, or a set of PMIDs}
@@ -13,13 +13,13 @@
   details.}
 }
 \description{
-  add two sets of PMIDs together, or exclude one set PMIDs
-  from another set of PMIDs.
+add two sets of PMIDs together, or exclude one set PMIDs
+from another set of PMIDs.
 }
 \details{
-  when method is 'add', PMIDs in 'x' and 'y' will be
-  combined. when method is 'exclude', PMIDs in 'y' will be
-  excluded from 'x'.
+when method is 'add', PMIDs in 'x' and 'y' will be
+combined. when method is 'exclude', PMIDs in 'y' will be
+excluded from 'x'.
 }
 \examples{
 # pmid1=getPMIDs(author="Yan-Hui Fan",dFrom=2007,dTo=2013,n=10)
@@ -33,6 +33,6 @@
 # pmids=editPMIDs(x=pmids1,y=pmids2,method="add")
 }
 \seealso{
-  \code{\link{getPMIDs}}
+\code{\link{getPMIDs}}
 }
 

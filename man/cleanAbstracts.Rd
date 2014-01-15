@@ -2,9 +2,8 @@
 \alias{cleanAbstracts}
 \title{clean data}
 \usage{
-  cleanAbstracts(abstracts, rmNum = TRUE, tolw = TRUE,
-    toup = FALSE, rmWords = TRUE, yrWords = NULL,
-    stemDoc = FALSE)
+cleanAbstracts(abstracts, rmNum = TRUE, tolw = TRUE, toup = FALSE,
+  rmWords = TRUE, yrWords = NULL, stemDoc = FALSE)
 }
 \arguments{
   \item{abstracts}{output of getAbstracts, or just a
@@ -29,9 +28,9 @@
   Porter's stemming algorithm.}
 }
 \description{
-  remove Punctuations, remove Numbers, Translate characters
-  to lower or upper case, remove stopwords, remove user
-  specified words, Stemming words.
+remove Punctuations, remove Numbers, Translate characters
+to lower or upper case, remove stopwords, remove user
+specified words, Stemming words.
 }
 \examples{
 Abs=getAbstracts(c("22693232", "22564732"))
@@ -41,6 +40,6 @@ text="Jobs received a number of honors and public recognition."
 cleanD=cleanAbstracts(text)
 }
 \seealso{
-  \code{\link{getAbstracts}}
+\code{\link{getAbstracts}}
 }
 

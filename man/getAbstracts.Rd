@@ -2,13 +2,13 @@
 \alias{getAbstracts}
 \title{get Abstracts}
 \usage{
-  getAbstracts(pmid)
+getAbstracts(pmid)
 }
 \arguments{
   \item{pmid}{a set of PMIDs}
 }
 \description{
-  retrieve abstracts of the specified PMIDs from PubMed.
+retrieve abstracts of the specified PMIDs from PubMed.
 }
 \examples{
 # pmids=c("22693232", "22564732", "22301463", "22015308", "21283797", "19412437")
@@ -21,6 +21,6 @@ abstract=getAbstracts(pmid)
 # abstracts=getAbstracts(pmids)
 }
 \seealso{
-  \code{\link{getPMIDs}}
+\code{\link{getPMIDs}}
 }
 
