@@ -10,7 +10,7 @@
 #' @seealso \code{\link{getPMIDs}}
 #' @export
 #' @examples
-#' getPMIDsByKeyWords(keys="breast cancer", journal="science",dTo=2013)
+#' # getPMIDsByKeyWords(keys="breast cancer", journal="science",dTo=2013)
 #' 
 #' # getPMIDsByKeyWords(keys="breast cancer", journal="science")
 #' 
