@@ -77,6 +77,8 @@ getPMIDsByKeyWords <-function(keys=NULL,journal=NULL,dFrom=NULL, dTo=NULL, n=100
   
   if (length(IdlistHlp) > 0){
     Idlist <- substring(IdlistHlp, seq(1, nchar(IdlistHlp)-1, 8), seq(8, nchar(IdlistHlp), 8))
+  }else{
+    return(c())
   }
   return(Idlist)
 }
